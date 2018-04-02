@@ -20,3 +20,4 @@ var input = document.getElementById("msgInput");
     	}
 	});
 
+
