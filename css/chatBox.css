@@ -1,5 +1,6 @@
 .chat-box div {
 	overflow: visible;
+	margin: 0.8px;
 }
 
 .chat-box div div{
@@ -25,11 +26,6 @@ input, button{
 	text-align: right;
 	overflow-y: scroll;
 	overflow-x: hidden;
-}
-
-
-.chat-box div{
-	margin: 3px;
 }
 
 #msgInput {
