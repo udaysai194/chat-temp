@@ -1,8 +1,15 @@
-span{
-	background-color: #B2FB7C;
-	border-radius: 7px 0px 7px 7px;
-	padding: 1px 5px 1px 5px;
+.chat-box div {
+	overflow: visible;
 }
+
+.chat-box div div{
+	background-color: #B2FB7C;
+	border-radius: 9px 0px 9px 9px;
+	padding: 1px 5px 1px 5px;
+	display: inline-block;
+}
+
+
 input, button{
 	border-radius: 0px;
 }
@@ -32,7 +39,6 @@ input, button{
 }
 
 #msgInput:focus {
-	color: blue;
 	border-radius: 0px;
 }
 

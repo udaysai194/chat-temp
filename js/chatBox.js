@@ -1,7 +1,7 @@
 function msg() {
 	if (document.getElementById('msgInput').value != '') {
 		var div = document.createElement("div");
-		var span = document.createElement("span");
+		var span = document.createElement("div");
 		var message = document.getElementById("msgInput").value;
 		var node = document.createTextNode(message);
 		var element = document.getElementById("chat-box");
