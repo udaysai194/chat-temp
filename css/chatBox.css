@@ -39,6 +39,7 @@ input, button{
 }
 
 #msgInput:focus {
+	color: black;
 	border-radius: 0px;
 }
 
