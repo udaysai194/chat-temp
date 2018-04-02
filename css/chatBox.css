@@ -1,6 +1,6 @@
 .chat-box div {
 	overflow: visible;
-	margin: 0.8px;
+	margin: 1px;
 }
 
 .chat-box div div{
@@ -56,4 +56,9 @@ input, button{
 	.chat-box{
 		height: 200px;
 	}
+
+	.chat-box div {
+	overflow: visible;
+	margin: 0.5px;
+}
 }
