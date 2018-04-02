@@ -1,0 +1,46 @@
+span{
+	background-color: #B2FB7C;
+	border-radius: 7px 0px 7px 7px;
+	padding: 1px 5px 1px 5px;
+}
+input, button{
+	border-radius: 0px;
+}
+
+.chat-box {
+	background: url('../assets/IMG_1444.JPG');
+	width: 100%;
+	height: 300px;
+	padding: 10px;
+	border: 2px solid black;
+	border-bottom: 0px;
+	border-radius: 10px 5px 0px 0px;
+	text-align: right;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+
+.chat-box div{
+	margin: 3px;
+}
+
+#msgInput {
+	color: black;
+	border: 2px solid black;
+	border-radius: 0px 0px 0px 15px;
+}
+
+#msgInput:focus {
+	color: blue;
+	border-radius: 0px;
+}
+
+
+#send {
+	background-color: #539E71;
+	color: white;
+	border: 2px solid black;
+	border-radius: 0px 0px 15px 0px;
+	border-left: 0px;
+}
